@@ -1,5 +1,8 @@
-const removeFromArray = function() {
-};
+const removeFromArray = function(deret, ...theArgs) {
 
-// Do not edit below this line
+    return deret.filter(item => !theArgs.includes(item));
+    
+    
+};
+// Do not edit below this lined
 module.exports = removeFromArray;
